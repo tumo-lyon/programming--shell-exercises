@@ -4,6 +4,31 @@ Réalise ces exercices en commandes shell pour te familiariser avec celles-ci.
 
 ### Cheatsheet des commandes vues aujourd'hui
 
+| Commande | Utilité | Exemple |
+| -------- | ------- | ------- |
+| `ls`       | Liste le contenu d'un répertoire |
+| `ls -l`    | Liste le contenu d'un répertoire avec des détails |
+| `mkdir`    | Crée un répertoire | `mkdir mon_dossier`
+| `cd`      | Change de répertoire | `cd mon_dossier`
+| `touch`    | Crée un fichier vide | `touch mon_fichier.js`
+| `rm`       | Supprime un fichier | `rm mon_fichier.js`
+| `rm -r`    | Supprime un dossier de manière récursive | `rm -r mon_dossier`
+| `pwd`      | Montre le répertoire actuel |
+| `cp`       | Copie un fichier | `cp mon_fichier.js mon_fichier_copie.js`
+| `cp -r`    | Copie un dossier de manière récursive | `cp -r dossier_source dossier_destination` |
+| `tar -cf`  | Crée une archive | `tar -cf monArchive.tar mon_fichier.js mon_dossier `
+| `tar -xf`  | Extrait une archive | `tar -xf monArchive.tar` |
+
+
+### Cheatsheet des commandes Git
+
+| Commande | Utilité | Exemple |
+| -------- | ------- | ------- |
+| `git status` | Affiche le status du répositoire actuel |
+| `git log` | Affiche le log de tous les commits |
+| `git add` | Ajoute un fichier/dossier à être commit | `git add mon_fichier.txt dossier_source`
+| `git commit -m` | Commit les fichiers avec un message | `git commit -m "Bugs réglés et code trié"`
+| `git push` | Push les changements locaux sur le serveur |
 
 
 ## 1. Crée un fichier texte 
